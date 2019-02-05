@@ -1,0 +1,20 @@
+select=input(" enter your choice 1or2or3or4:")
+a=float(input("raw_enter the number"))
+b=float(input("raw_enter the number"))
+if select==1:
+  c=a+b
+  print(c)
+elif select==2: 
+  c=a-b 
+  print(c)
+elif select==3:
+  c=a*b
+  print (c)
+elif select==4:
+  if(b==0):
+   print("zero value") 
+  else:
+   c=a/b
+   print(c)   
+else:
+  print("invalid number") 
